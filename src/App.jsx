@@ -16,9 +16,9 @@ function App() {
   return (
     <>
       <div className='container mx-auto'>
-          <div className='flex items-center justify-between mt-2'>
+          <div className='flex text-center items-center justify-between mt-2'>
             <span></span>
-            <img src={logo} alt="" />
+            <img className='mr-32' src={logo} alt="" />
           </div>
 
         <div className='mt-5 text-white'>
